@@ -1,0 +1,6 @@
+<div class="row" *ngFor="let rownum of rows" >
+    <div class="col-sm-1" *ngFor="let item of getItems(rownum)" >
+            <item [item]= "item"></item>
+    </div>
+</div>
+  
